@@ -1,0 +1,9 @@
+/*Mobile device*/
+@media screen and (max-width: 576px){
+    .header-container, nav ul {
+        flex-direction: column;
+    }
+    nav ul li:nth-child(1), nav ul li:nth-child(3) {
+        margin-top: 20px;
+    }
+}
